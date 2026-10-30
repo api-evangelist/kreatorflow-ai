@@ -64,5 +64,150 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-kreatorflow-ai is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://kreatorflow.ai/
+KreatorFlow is an AI-powered platform that enables users to generate, edit, and enhance video, image, and voice content using BytePlus-powered models. It offers a suite of creative tools such as Seedance video generation, Seedream image creation, and TTS voice synthesis, all accessible via a unified REST API. Users can start for free with 25 credits, and the service provides flexible pricing, token‑based billing, and signed webhooks for integration. The platform also supports MCP connections to AI assistants like Claude and ChatGPT, positioning KreatorFlow as a comprehensive solution for AI‑driven media production.
+
+**Areas:** AI · Video · Image · Voice · API · Platform
+
+## kreatorflow-ai on APIs.io
+
+Everything profiled for kreatorflow-ai is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/kreatorflow-ai/](https://apis.io/providers/kreatorflow-ai/)** — or go straight to one of the APIs or properties below.
+
+### APIs (8)
+
+- [kreatorflow-ai Audio API](https://apis.io/apis/kreatorflow-ai/kreatorflow-ai-audio-api/) — The Audio API from kreatorflow-ai — 2 operation(s) for audio.
+- [kreatorflow-ai Images API](https://apis.io/apis/kreatorflow-ai/kreatorflow-ai-images-api/) — The Images API from kreatorflow-ai — 3 operation(s) for images.
+- [kreatorflow-ai Jobs API](https://apis.io/apis/kreatorflow-ai/kreatorflow-ai-jobs-api/) — The Jobs API from kreatorflow-ai — 2 operation(s) for jobs.
+- [kreatorflow-ai Lip Sync API](https://apis.io/apis/kreatorflow-ai/kreatorflow-ai-lip-sync-api/) — The Lip Sync API from kreatorflow-ai — 1 operation(s) for lip sync.
+- [kreatorflow-ai MCP API](https://apis.io/apis/kreatorflow-ai/kreatorflow-ai-mcp-api/) — The MCP API from kreatorflow-ai — 1 operation(s) for mcp.
+- [kreatorflow-ai Models API](https://apis.io/apis/kreatorflow-ai/kreatorflow-ai-models-api/) — The Models API from kreatorflow-ai — 1 operation(s) for models.
+- [kreatorflow-ai Uploads API](https://apis.io/apis/kreatorflow-ai/kreatorflow-ai-uploads-api/) — The Uploads API from kreatorflow-ai — 4 operation(s) for uploads.
+- [kreatorflow-ai Video API](https://apis.io/apis/kreatorflow-ai/kreatorflow-ai-video-api/) — The Video API from kreatorflow-ai — 4 operation(s) for video.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Kreatorflow Ai Webhooks](https://apis.io/asyncapis/kreatorflow-ai/kreatorflow-ai-webhooks/)
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Kreatorflow Ai Agentic Access](https://apis.io/agentic-access/kreatorflow-ai/kreatorflow-ai-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [AudioRequest](https://apis.io/schemas/kreatorflow-ai/kreatorflow-ai-audio-request/)
+- [CharacterRequest](https://apis.io/schemas/kreatorflow-ai/kreatorflow-ai-character-request/)
+- [ImageRequest](https://apis.io/schemas/kreatorflow-ai/kreatorflow-ai-image-request/)
+- [VideoEditRequest](https://apis.io/schemas/kreatorflow-ai/kreatorflow-ai-video-edit-request/)
+- [VideoRequest](https://apis.io/schemas/kreatorflow-ai/kreatorflow-ai-video-request/)
+- [VideoToolRequest](https://apis.io/schemas/kreatorflow-ai/kreatorflow-ai-video-tool-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Kreatorflow Ai Context](https://apis.io/jsonld/kreatorflow-ai/kreatorflow-ai-context/)
+
+#### Overlays (1)
+
+OpenAPI overlays, including conversational phrasing for each operation.
+
+- [Kreatorflow Ai Openapi Overlay](https://apis.io/overlays/kreatorflow-ai/kreatorflow-ai-openapi-overlay/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [kreatorflow-ai API Rules](https://apis.io/rules/kreatorflow-ai/kreatorflow-ai-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Kreatorflow Ai Authentication](https://apis.io/security/kreatorflow-ai/kreatorflow-ai-authentication/)
+- [Kreatorflow Ai Domain Security](https://apis.io/security/kreatorflow-ai/kreatorflow-ai-domain-security/)
+- [Kreatorflow Ai Vulnerability Disclosure](https://apis.io/security/kreatorflow-ai/kreatorflow-ai-vulnerability-disclosure/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Kreatorflow Ai Rate Limits](https://apis.io/rate-limits/kreatorflow-ai/kreatorflow-ai-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://kreatorflow.ai/)
+- [Documentation](https://kreatorflow.ai/developers)
+- [Getting started](https://kreatorflow.ai/developers)
+- [API reference](https://kreatorflow.ai/developers)
+- [Pricing](https://kreatorflow.ai/pricing)
+- [Support](https://kreatorflow.ai/support/developer-api)
+- [Blog](https://kreatorflow.ai/blog)
+- [Security](https://kreatorflow.ai/acceptable-use)
+- [Terms of service](https://kreatorflow.ai/terms)
+- [Privacy policy](https://kreatorflow.ai/privacy)
+
+## API Evangelist rating
+
+**Kin Score 62.0** — strong · rubric 0.25.0 · scored 2026-10-30
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 69.8 |
+| Contract governance | 79.1 |
+| Operational transparency | 46.8 |
+| Developer ergonomics | 57.1 |
+| Access clarity | 44.7 |
+
+**Agent readiness 58.3** — agent-native
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | verified |
+| Error Semantics | documented (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | verified |
+| Event Surface Described | unknown |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | — |
+
+**Regulatory alignment 28.2** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/kreatorflow-ai/](https://apis.io/providers/kreatorflow-ai/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for kreatorflow-ai: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/kreatorflow-ai/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
